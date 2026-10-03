@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muzaffargarh Skills Academy | Learn Skills. Build Your Future.</title>
+  <meta name="description" content="Muzaffargarh Skills Academy helps students learn practical skills through professional courses, admission guidance and career-focused learning.">
+  <meta name="theme-color" content="#1e3a8a">
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Sticky Header / Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <a href="#home" class="brand-logo" aria-label="Muzaffargarh Skills Academy Home">
+        <div class="logo-icon-box">
+          <svg class="mortarboard-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm0 8.55L4.47 9 12 4.9 19.53 9 12 11.55zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="academy-name">Muzaffargarh</span>
+          <span class="academy-tag">Skills Academy</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#courses" class="nav-link">Courses</a></li>
+          <li><a href="#admissions" class="nav-link">Admissions</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions: Dark Mode & Apply Now -->
+      <div class="header-actions">
+        <!-- Dark Mode Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode" title="Toggle Dark/Light Mode">
+          <span class="theme-icon light-icon" aria-hidden="true">☀️</span>
+          <span class="theme-icon dark-icon" aria-hidden="true">🌙</span>
+        </button>
+
+        <a href="#admissions" class="btn btn-primary header-apply-btn">Apply Now</a>
+
+        <!-- Mobile Hamburger Button -->
+        <button id="mobile-menu-btn" class="hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Nav Menu -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation">
+      <ul class="mobile-nav-links">
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#courses" class="mobile-nav-link">Courses</a></li>
+        <li><a href="#admissions" class="mobile-nav-link">Admissions &amp; Fees</a></li>
+        <li><a href="#about" class="mobile-nav-link">About Us</a></li>
+        <li><a href="#faq" class="mobile-nav-link">FAQs</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        <li class="mobile-apply-item">
+          <a href="#admissions" class="btn btn-primary btn-block mobile-apply-btn">Apply Now</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span> Certified Technical &amp; Digital Skills Center
+          </div>
+          <h1 class="hero-title">
+            Learn Skills.<br>
+            <span class="highlight-text">Build Your Future.</span>
+          </h1>
+          <p class="hero-subtitle">
+            Practical Courses &bull; Expert Mentors &bull; Real Opportunities
+          </p>
+          <p class="hero-desc">
+            Empowering students, freelancers, and professionals in Muzaffargarh with high-demand digital skills, hands-on portfolio training, and career mentorship.
+          </p>
+          <div class="hero-buttons">
+            <a href="#courses" class="btn btn-primary btn-lg" id="hero-explore-btn">Explore Courses</a>
+            <a href="#admissions" class="btn btn-outline btn-lg" id="hero-eligibility-btn">Check Eligibility</a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="hero-trust">
+            <div class="trust-item">
+              <span class="check-icon">&#10003;</span> Hands-on Projects
+            </div>
+            <div class="trust-item">
+              <span class="check-icon">&#10003;</span> Free Career Guidance
+            </div>
+            <div class="trust-item">
+              <span class="check-icon">&#10003;</span> In-demand Tools
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual-wrapper">
+          <div class="hero-card-showcase">
+            <div class="showcase-banner">
+              <div class="showcase-badge">🎓 Fall Admissions Open</div>
+              <div class="academy-seal">MSA</div>
+            </div>
+            <div class="showcase-body">
+              <div class="showcase-illustration">
+                <div class="code-preview-box">
+                  <div class="code-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                  </div>
+                  <div class="code-lines">
+                    <code>&lt;<span class="c-tag">future</span>&gt; skills.<span class="c-func">unlock</span>() &lt;/<span class="c-tag">future</span>&gt;</code>
+                    <code><span class="c-keyword">const</span> success = <span class="c-string">"Muzaffargarh Skills Academy"</span>;</code>
+                  </div>
+                </div>
+              </div>
+              <div class="live-pill">
+                <span class="pulse-indicator"></span> 500+ Students Active This Year
+              </div>
+              <div class="quick-stats-row">
+                <div class="stat-mini">
+                  <strong>4.9 / 5.0</strong>
+                  <span>Rating</span>
+                </div>
+                <div class="stat-mini">
+                  <strong>100%</strong>
+                  <span>Practical Lab</span>
+                </div>
+                <div class="stat-mini">
+                  <strong>Flexible</strong>
+                  <span>Morning &amp; Evening</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS SECTION -->
+    <section class="stats-section" id="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon-wrapper">
+              <span class="stat-symbol">👨‍🎓</span>
+            </div>
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Students Trained</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon-wrapper">
+              <span class="stat-symbol">💻</span>
+            </div>
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Professional Courses</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon-wrapper">
+              <span class="stat-symbol">⭐</span>
+            </div>
+            <div class="stat-number">95%</div>
+            <div class="stat-label">Student Satisfaction</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon-wrapper">
+              <span class="stat-symbol">🚀</span>
+            </div>
+            <div class="stat-number">Career</div>
+            <div class="stat-label">Mentorship &amp; Support</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POPULAR COURSES SECTION -->
+    <section class="courses-section" id="courses">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Skill Tracks</span>
+          <h2 class="section-title">Popular Courses</h2>
+          <p class="section-subtitle">Specially curated programs to help you master market-ready skills and launch your career.</p>
+        </div>
+
+        <div class="courses-grid">
+          <!-- Course 1 -->
+          <article class="course-card">
+            <div class="course-icon-box code-bg">
+              <span class="course-emoji">👨‍💻</span>
+            </div>
+            <div class="course-content">
+              <span class="course-tag">Web &amp; Software</span>
+              <h3 class="course-title">Web Development</h3>
+              <p class="course-desc">Build modern websites and web applications with HTML, CSS, JavaScript, and responsive UI practices.</p>
+              <div class="course-price">
+                <span class="price-val">Rs. 5,000</span>
+                <span class="price-period">/ month</span>
+              </div>
+              <div class="course-features">
+                <span>✓ Frontend &amp; Projects</span>
+                <span>✓ Portfolio Building</span>
+              </div>
+              <a href="#admissions" class="btn btn-outline course-cta-btn" onclick="selectCourseInCalculator('webDevelopment')">View Course</a>
+            </div>
+          </article>
+
+          <!-- Course 2 -->
+          <article class="course-card">
+            <div class="course-icon-box design-bg">
+              <span class="course-emoji">🎨</span>
+            </div>
+            <div class="course-content">
+              <span class="course-tag">Creative Design</span>
+              <h3 class="course-title">Graphic Design</h3>
+              <p class="course-desc">Learn creative design and branding skills using industry tools like Photoshop, Illustrator, and Canva.</p>
+              <div class="course-price">
+                <span class="price-val">Rs. 4,000</span>
+                <span class="price-period">/ month</span>
+              </div>
+              <div class="course-features">
+                <span>✓ Brand Identity &amp; Logos</span>
+                <span>✓ Social Media Creatives</span>
+              </div>
+              <a href="#admissions" class="btn btn-outline course-cta-btn" onclick="selectCourseInCalculator('graphicDesign')">View Course</a>
+            </div>
+          </article>
+
+          <!-- Course 3 -->
+          <article class="course-card featured-course">
+            <div class="popular-ribbon">Trending</div>
+            <div class="course-icon-box ai-bg">
+              <span class="course-emoji">🤖</span>
+            </div>
+            <div class="course-content">
+              <span class="course-tag">Next-Gen Tech</span>
+              <h3 class="course-title">Advanced &amp; Agentic AI</h3>
+              <p class="course-desc">Work with modern AI tools, prompt engineering, agentic workflows, and build real-world intelligent projects.</p>
+              <div class="course-price">
+                <span class="price-val">Rs. 7,000</span>
+                <span class="price-period">/ month</span>
+              </div>
+              <div class="course-features">
+                <span>✓ AI Agents &amp; Automation</span>
+                <span>✓ Real World Solutions</span>
+              </div>
+              <a href="#admissions" class="btn btn-primary course-cta-btn" onclick="selectCourseInCalculator('aiCourse')">View Course</a>
+            </div>
+          </article>
+
+          <!-- Course 4 -->
+          <article class="course-card">
+            <div class="course-icon-box freelance-bg">
+              <span class="course-emoji">🌐</span>
+            </div>
+            <div class="course-content">
+              <span class="course-tag">E-Commerce &amp; Clients</span>
+              <h3 class="course-title">Freelancing</h3>
+              <p class="course-desc">Learn freelancing and earn globally on Upwork, Fiverr, direct client outreach, and international payments.</p>
+              <div class="course-price">
+                <span class="price-val">Rs. 3,500</span>
+                <span class="price-period">/ month</span>
+              </div>
+              <div class="course-features">
+                <span>✓ Profile Optimization</span>
+                <span>✓ Winning Bids &amp; Proposals</span>
+              </div>
+              <a href="#admissions" class="btn btn-outline course-cta-btn" onclick="selectCourseInCalculator('freelancing')">View Course</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADMISSION & FEE ASSISTANT (CORE SECTION) -->
+    <section class="assistant-section" id="admissions">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Interactive Tools</span>
+          <h2 class="section-title">Admission &amp; Fee Assistant</h2>
+          <p class="section-subtitle">Check your eligibility and calculate your course fee instantly.</p>
+        </div>
+
+        <div class="assistant-grid">
+          <!-- CARD 1: Student Admission Eligibility Checker -->
+          <div class="assistant-card" id="card-eligibility">
+            <div class="card-head">
+              <div class="card-badge-icon">🎓</div>
+              <div>
+                <h3 class="card-title">Admission Eligibility Checker</h3>
+                <p class="card-description">Enter your academic marks to see instant admission eligibility.</p>
+              </div>
+            </div>
+
+            <form id="eligibility-form" class="assistant-form" onsubmit="event.preventDefault(); checkEligibility();">
+              <div class="form-group">
+                <label for="student-name">Student Name <span class="req">*</span></label>
+                <input type="text" id="student-name" class="form-input" placeholder="e.g. Muhammad Ali" autocomplete="name">
+                <small class="field-error" id="name-error"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="student-marks">Marks (%) <span class="req">*</span></label>
+                <input type="number" id="student-marks" class="form-input" placeholder="e.g. 75" min="0" max="100" step="any">
+                <small class="field-error" id="marks-error"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="eligibility-course">Select Course <span class="req">*</span></label>
+                <select id="eligibility-course" class="form-select">
+                  <option value="">-- Choose a Course --</option>
+                  <option value="Web Development">Web Development</option>
+                  <option value="Graphic Design">Graphic Design</option>
+                  <option value="AI Course">AI Course</option>
+                  <option value="Freelancing">Freelancing</option>
+                </select>
+                <small class="field-error" id="course-error"></small>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="check-eligibility-btn">
+                Check Eligibility
+              </button>
+            </form>
+
+            <!-- Dynamic Result Area -->
+            <div id="eligibility-result" class="result-box" style="display: none;" role="region" aria-live="polite">
+              <div class="result-icon" id="eligibility-result-icon"></div>
+              <div class="result-details">
+                <h4 class="result-greeting" id="eligibility-result-greeting"></h4>
+                <p class="result-status" id="eligibility-result-status"></p>
+                <p class="result-note" id="eligibility-result-note"></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2: Course Fee Calculator -->
+          <div class="assistant-card" id="card-fee-calculator">
+            <div class="card-head">
+              <div class="card-badge-icon">💳</div>
+              <div>
+                <h3 class="card-title">Course Fee Calculator</h3>
+                <p class="card-description">Calculate tuition fees with automatic discounts for longer terms.</p>
+              </div>
+            </div>
+
+            <form id="fee-calculator-form" class="assistant-form" onsubmit="event.preventDefault(); calculateFee();">
+              <div class="form-group">
+                <label for="fee-course">Select Course <span class="req">*</span></label>
+                <select id="fee-course" class="form-select" onchange="updateCourseFeePreview()">
+                  <option value="">-- Choose a Course --</option>
+                  <option value="webDevelopment">Web Development (Rs. 5,000/mo)</option>
+                  <option value="graphicDesign">Graphic Design (Rs. 4,000/mo)</option>
+                  <option value="aiCourse">AI Course (Rs. 7,000/mo)</option>
+                  <option value="freelancing">Freelancing (Rs. 3,500/mo)</option>
+                </select>
+                <small class="field-error" id="fee-course-error"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="fee-months">Number of Months <span class="req">*</span></label>
+                <input type="number" id="fee-months" class="form-input" placeholder="e.g. 3" min="1" max="24" step="1">
+                <span class="input-hint">Tip: 3 months gets 5% discount &bull; 6+ months gets 10% discount</span>
+                <small class="field-error" id="fee-months-error"></small>
+              </div>
+
+              <button type="submit" class="btn btn-secondary btn-block" id="calculate-fee-btn">
+                Calculate Fee
+              </button>
+            </form>
+
+            <!-- Dynamic Fee Result Table / Summary -->
+            <div id="fee-result" class="result-box fee-result-card" style="display: none;" role="region" aria-live="polite">
+              <h4 class="fee-result-title">Fee Breakdown Summary</h4>
+              <div class="fee-breakdown-table">
+                <div class="fee-row">
+                  <span class="fee-label">Course Selected:</span>
+                  <strong class="fee-val" id="summary-course">-</strong>
+                </div>
+                <div class="fee-row">
+                  <span class="fee-label">Monthly Rate:</span>
+                  <span class="fee-val" id="summary-monthly-fee">-</span>
+                </div>
+                <div class="fee-row">
+                  <span class="fee-label">Duration:</span>
+                  <span class="fee-val" id="summary-duration">-</span>
+                </div>
+                <div class="fee-row">
+                  <span class="fee-label">Original Fee:</span>
+                  <span class="fee-val" id="summary-original-fee">-</span>
+                </div>
+                <div class="fee-row discount-row">
+                  <span class="fee-label">Applicable Discount:</span>
+                  <span class="fee-val discount-val" id="summary-discount">-</span>
+                </div>
+                <div class="fee-row total-row">
+                  <span class="fee-label">Final Payable Fee:</span>
+                  <span class="fee-val final-val" id="summary-final-fee">-</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADMISSION PROCESS SECTION -->
+    <section class="process-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Simple 3 Steps</span>
+          <h2 class="section-title">How Admission Works</h2>
+          <p class="section-subtitle">Get started with our transparent and student-friendly admission procedure.</p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <h3 class="step-title">Check Eligibility</h3>
+            <p class="step-desc">Use our online assistant above to verify your academic eligibility and choose the right track.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <h3 class="step-title">Select Your Course</h3>
+            <p class="step-desc">Choose from Web Development, Graphic Design, AI, or Freelancing and verify fee plans.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <h3 class="step-title">Start Learning</h3>
+            <p class="step-desc">Complete simple registration, join practical lab sessions, and build your digital portfolio.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Why MSA</span>
+          <h2 class="section-title">Why Choose Muzaffargarh Skills Academy?</h2>
+          <p class="section-subtitle">Dedicated to bringing modern tech education and career-ready skills to local youth.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">🛠️</div>
+            <h3 class="about-card-title">Practical Learning</h3>
+            <p class="about-card-desc">Learn skills through hands-on practical projects instead of theory alone. Build actual apps and design portfolios.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">👨‍🏫</div>
+            <h3 class="about-card-title">Expert Mentors</h3>
+            <p class="about-card-desc">Learn from experienced local instructors and active industry practitioners dedicated to your progress.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">💼</div>
+            <h3 class="about-card-title">Career Support</h3>
+            <p class="about-card-desc">Guidance on freelancing profiles, resumes, client interviews, and real freelance marketplace strategies.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">🚀</div>
+            <h3 class="about-card-title">Real-World Projects</h3>
+            <p class="about-card-desc">Every student completes capstone projects ready to present to international clients and local tech employers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Got Questions?</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Answers to common queries regarding courses, fees, and admissions.</p>
+        </div>
+
+        <div class="faq-accordion" id="faq-accordion">
+          <!-- Question 1 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-ans-1">
+              <span>Who can join the academy?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-ans-1">
+              <div class="faq-answer-inner">
+                Anyone with a basic understanding of computer usage and a drive to learn can join! We cater to matric/intermediate students, university graduates, and aspiring freelancers in Muzaffargarh.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 2 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-ans-2">
+              <span>How is eligibility calculated?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-ans-2">
+              <div class="faq-answer-inner">
+                Students with 70% or higher qualify for Direct Admission. Those with 50% to 69% are eligible with recommended counselling to select the best track. Students under 50% can connect with an admission counsellor for special batch consideration.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-ans-3">
+              <span>Can I calculate my course fee online?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-ans-3">
+              <div class="faq-answer-inner">
+                Yes! Use our Course Fee Calculator above. We offer a 5% discount for a 3-month enrollment and a 10% discount for 6 months or longer.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 4 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-ans-4">
+              <span>Are courses suitable for beginners?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-ans-4">
+              <div class="faq-answer-inner">
+                Absolutely! Our curriculum starts from basic fundamentals and gradually progresses to advanced industry practices, accompanied by live mentor assistance.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">Get In Touch</span>
+          <h2 class="section-title">Contact Us</h2>
+          <p class="section-subtitle">Have questions or want to visit our campus? Reach out to us.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info-card">
+            <h3 class="contact-info-title">Muzaffargarh Skills Academy</h3>
+            <p class="contact-info-desc">
+              Your premier center for technical education, IT training, and freelancing skills.
+            </p>
+
+            <div class="info-list">
+              <div class="info-item">
+                <span class="info-icon">📍</span>
+                <div>
+                  <strong>Location:</strong>
+                  <p>Muzaffargarh, Punjab, Pakistan</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span class="info-icon">📧</span>
+                <div>
+                  <strong>Email:</strong>
+                  <p>Rehan.techhub0@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span class="info-icon">📞</span>
+                <div>
+                  <strong>Phone / WhatsApp:</strong>
+                  <p>0342-7883728</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span class="info-icon">⏰</span>
+                <div>
+                  <strong>Timings:</strong>
+                  <p>Monday – Saturday: 9:00 AM – 6:00 PM</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-notice">
+              <span class="notice-badge">Notice</span>
+              <p>Demo educational project website for Muzaffargarh Skills Academy.</p>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card">
+            <h3 class="form-title">Send Us a Message</h3>
+            <form id="contact-form" onsubmit="event.preventDefault(); validateContactForm();">
+              <div class="form-group">
+                <label for="contact-name">Full Name <span class="req">*</span></label>
+                <input type="text" id="contact-name" class="form-input" placeholder="Your name">
+                <small class="field-error" id="contact-name-error"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Email Address <span class="req">*</span></label>
+                <input type="email" id="contact-email" class="form-input" placeholder="you@example.com">
+                <small class="field-error" id="contact-email-error"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message <span class="req">*</span></label>
+                <textarea id="contact-message" class="form-input form-textarea" rows="4" placeholder="How can we help you?"></textarea>
+                <small class="field-error" id="contact-message-error"></small>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="send-message-btn">Send Message</button>
+            </form>
+
+            <div id="contact-success-msg" class="contact-feedback success-feedback" style="display: none;" role="status">
+              <span class="success-icon">&#10004;</span>
+              <div>
+                <strong>Thank you!</strong>
+                <p>Your message has been received.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Professional Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-col brand-col">
+        <div class="footer-logo">
+          <span class="footer-logo-icon">🎓</span>
+          <span class="footer-brand-title">Muzaffargarh Skills Academy</span>
+        </div>
+        <p class="footer-tagline">"Learn Skills. Build Your Future."</p>
+        <p class="footer-desc">Practical Courses &bull; Expert Mentors &bull; Real Opportunities</p>
+      </div>
+
+      <div class="footer-col links-col">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#admissions">Admissions &amp; Fees</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col contact-col">
+        <h4 class="footer-heading">Contact Details</h4>
+        <p>Muzaffargarh, Punjab, Pakistan</p>
+        <p>Phone: 0342-7883728</p>
+        <p>Email: Rehan.techhub0@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Muzaffargarh Skills Academy. All rights reserved.</p>
+        <span class="edu-badge">Educational project website.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Quick Contact Button -->
+  <a href="https://wa.me/923427883728?text=Hello%20Muzaffargarh%20Skills%20Academy,%20I%20would%20like%20information%20about%20admissions."
+     class="whatsapp-float-btn"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Chat on WhatsApp"
+     title="Chat with Admissions on WhatsApp">
+    <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.9.53 3.68 1.46 5.21L2 22l5.05-1.54a9.85 9.85 0 0 0 4.99 1.45h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.06c-1.57 0-3.1-.42-4.44-1.22l-.32-.19-3.29 1 1.02-3.2-.21-.34A8.15 8.15 0 0 1 3.9 11.9c0-4.49 3.65-8.14 8.14-8.14 2.17 0 4.22.85 5.76 2.39a8.1 8.1 0 0 1 2.38 5.76c0 4.49-3.66 8.15-8.14 8.15zm4.46-6.11c-.24-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.24-.63.8-.77.97-.14.16-.29.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.45-1.35-1.69-.14-.24-.01-.37.11-.49.11-.11.24-.29.37-.43.12-.14.16-.24.24-.4.08-.16.04-.31-.02-.43-.06-.12-.55-1.33-.76-1.82-.2-.48-.41-.41-.56-.42l-.48-.01c-.16 0-.43.06-.66.31-.22.24-.87.85-.87 2.08 0 1.22.89 2.4 1.01 2.57.12.16 1.76 2.68 4.26 3.76.6.26 1.06.41 1.42.53.6.19 1.15.16 1.58.1.48-.07 1.45-.59 1.66-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28z"/>
+    </svg>
+    <span class="whatsapp-tooltip">Chat with us</span>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="./script.js"></script>
+</body>
+</html>
